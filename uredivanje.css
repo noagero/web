@@ -1,8 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: darkblue;
 }
 
 h1 {
-  color: navy;
+  color: red;
   margin-left: 20px;
+}
+p{
+  color:green;
 }
