@@ -1,45 +1,47 @@
 body {
-  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-}
-
-ul, li{
-  list-style:none;
-  margin:0px;
-  padding:0px;
-  color:blue;
-}
-
-ul li a,ul li a:visited{
-  display:block;
-  text-decoration:none;
-  margin:1px;
-  padding: 2px 0px 2px 5px;
-  width:100px;
-}
-
-ul ul li a, ul ul li a:visited{
-  display:block;
-  text-decoration:none;
-  margin:1px 1px 1px 15px;
-  padding: 2px 0px 2px 5px;
-  width:108px:
-}
-
-img{
-  animation-name: scale_up;
-  animation-duration: 1.5s;
-}
-
-img:hover{
-  transform: scale(1.1)
-}
-
-h1 {
-  color: red;
-  margin-left: 20px;
-}
-p{
-  color:green;
-}
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  }
+  
+  ul, li{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    color:blue;
+    border-left-style:solid;
+  }
+  
+  ul li a,ul li a:visited{
+    display:block;
+    text-decoration:none;
+    margin:1px;
+    padding: 2px 0px 2px 5px;
+    width:100px;
+  }
+  
+  ul ul li a, ul ul li a:visited{
+    display:block;
+    text-decoration:none;
+    margin:1px 1px 1px 15px;
+    padding: 2px 0px 2px 5px;
+    width:108px;
+  }
+  
+  img{
+    animation-name: scale_up;
+    animation-duration: 1.5s;
+  }
+  
+  img:hover{
+    transform: scale(1.1)
+  }
+  
+  h1 {
+    color: red;
+    margin-left: 20px;
+  }
+  p{
+    color:green;
+  }
+  
