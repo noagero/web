@@ -22,7 +22,7 @@ ul ul li a, ul ul li a:visited{
 
 img{
   animation-name: scale_up;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 
 img:hover{
