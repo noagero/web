@@ -4,6 +4,31 @@ body {
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
+ul li a,ul li a:visited{
+  display:block;
+  text-decoration:none;
+  margin:1px;
+  padding: 2px 0px 2px 5px;
+  width:100px;
+}
+
+ul ul li a, ul ul li a:visited{
+  display:block;
+  text-decoration:none;
+  margin:1px 1px 1px 15px;
+  padding: 2px 0px 2px 5px;
+  width:108px:
+}
+
+img{
+  animation-name: scale_up;
+  animation-duration: 0.5s;
+}
+
+img:hover{
+  transform: scale(1.1)
+}
+
 h1 {
   color: red;
   margin-left: 20px;
