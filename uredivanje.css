@@ -22,6 +22,7 @@ body {
     border-left-style:solid;
     border-width: 6px;
     border-left-color: blue;
+    background-color: rgba(233, 150, 122, 0);
   }
   
   ul ul li a, ul ul li a:visited{
@@ -34,6 +35,7 @@ body {
     border-left-style:solid;
     border-width: 4px;
     border-left-color: blue;
+    background-color: rgba(233, 150, 122, 0);
   }
 
   
