@@ -10,6 +10,7 @@ body {
     padding:0px;
     color:blue;
     border-left-style:solid;
+    font-weight: bold;
   }
   
   ul li a,ul li a:visited{
