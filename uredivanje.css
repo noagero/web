@@ -12,6 +12,10 @@ body {
     border-left-style:solid;
     font-weight: bold;
   }
+
+  ul,li:hover{
+    color:burlywood;
+  }
   
   ul li a,ul li a:visited{
     display:block;
