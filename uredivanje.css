@@ -17,7 +17,7 @@ body {
     text-decoration: none;
   }
 
-  ul ul li a:hover{
+  ul li li a:hover{
     border-left-color: #ccf;
     text-decoration: none;
   }
@@ -30,6 +30,8 @@ body {
     width:100px;
     color:blue;
     border-width: 6px;
+    animation-name: change_color;
+    animation-duration: 0.1s;
   }
   
   ul ul li a, ul ul li a:visited{
@@ -40,6 +42,8 @@ body {
     width:108px;
     color:blue;
     border-width: 4px;
+    animation-name: change_color;
+    animation-duration: 0.1s;
   }
   
   img{
