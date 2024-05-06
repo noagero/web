@@ -13,8 +13,14 @@ body {
     font-weight: bold;
   }
 
-  ul,li:hover{
-    color:burlywood;
+  ul li a:hover{
+    border-left-color: #ccf;
+    text-decoration: none;
+  }
+
+  ul li li a:hover{
+    border-left-color: #ccf;
+    text-decoration: none;
   }
   
   ul li a,ul li a:visited{
